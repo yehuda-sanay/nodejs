@@ -51,5 +51,7 @@
 // })
 
 // eventEmitter.emit("somthing")
-const app = require("./eventEmitterFile");
-app.eventEmitterEmitFunc()
+// const app = require("./eventEmitterFile");
+// app.eventEmitterEmitFunc()
+
+const app = require("./SpiderMen")
