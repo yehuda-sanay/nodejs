@@ -1,4 +1,4 @@
-const fs = require("fs");
+// const fs = require("fs");
 
 // fs.writeFile("./my-file.txt", "hello Yehuda", () => {});
 
@@ -30,10 +30,26 @@ const fs = require("fs");
 //     if(data.length>50)return console.log("seccses");
 // })
 
-fs.readFile("./new-text.txt", { encoding: "utf8" }, (error, data) => {
-  if (error) return console.log(error);
-  fs.writeFile("./my-new-file.txt", `${data}`, (error) => {
-    if (error) return console.log(error);
-    console.log(data.toUpperCase());
-  });
-});
+// fs.readFile("./new-text.txt", { encoding: "utf8" }, (error, data) => {
+//   if (error) return console.log(error);
+//   fs.writeFile("./my-new-file.txt", `${data}`, (error) => {
+//     if (error) return console.log(error);
+//     console.log(data.toUpperCase());
+//   });
+// });
+
+// const {writeFile,readFile}=require("./newClass")
+// writeFile()
+// readFile()
+
+// const Event = require("events").EventEmitter
+
+// const eventEmitter = new Event()
+
+// eventEmitter.on("somthing",()=>{
+//   console.log("somthing");
+// })
+
+// eventEmitter.emit("somthing")
+const app = require("./eventEmitterFile");
+app.eventEmitterEmitFunc()
