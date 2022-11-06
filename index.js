@@ -54,4 +54,5 @@
 // const app = require("./eventEmitterFile");
 // app.eventEmitterEmitFunc()
 
-const app = require("./SpiderMen")
+// const app = require("./SpiderMen")
+
